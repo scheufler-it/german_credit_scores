@@ -1,0 +1,1 @@
+https://www.kaggle.com/datasets/elsnkazm/german-credit-scoring-data
