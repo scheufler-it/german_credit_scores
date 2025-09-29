@@ -400,7 +400,7 @@ def main():
     print("="*50)
     
     # Initialize the cleanser
-    cleanser = GermanCreditCleanser('german_credit_dirty.csv')
+    cleanser = GermanCreditCleanser('german_credit_raw.csv')
     
     # Load data
     if not cleanser.load_data():
