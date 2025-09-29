@@ -4,7 +4,7 @@ from collections import Counter
 import json
 
 class GermanCreditCleanser:
-    def __init__(self, file_path='german_credit_dirty.csv'):
+    def __init__(self, file_path='german_credit_raw.csv'):
         self.file_path = file_path
         self.original_data = None
         self.cleaned_data = None
